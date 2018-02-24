@@ -46,6 +46,13 @@ def api_echo():
         id=23
     )
 
+
+@app.route('/location/<int:data>')
+def testLocation(data):
+    print ('data is %d!' % (data))
+    return 'data is %d!' % (data)
+
+
 def gen(camera):
     while True:
         frame = camera.get_frame()
