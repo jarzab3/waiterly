@@ -436,3 +436,414 @@
 2018-02-24 22:03:14,872 : INFO : 127.0.0.1 - - [24/Feb/2018 22:03:14] "GET /location/1 HTTP/1.0" 200 -
 2018-02-24 22:03:15,630 : INFO : 127.0.0.1 - - [24/Feb/2018 22:03:15] "GET /location/1 HTTP/1.0" 200 -
 2018-02-24 22:03:16,715 : INFO : 127.0.0.1 - - [24/Feb/2018 22:03:16] "GET /location/1 HTTP/1.0" 200 -
+2018-02-24 22:30:21,560 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 22:30:21,563 : INFO :  * Restarting with stat
+2018-02-24 22:30:22,050 : WARNING :  * Debugger is active!
+2018-02-24 22:30:22,080 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:31:26,075 : INFO : 127.0.0.1 - - [24/Feb/2018 22:31:26] "GET /location/4 HTTP/1.1" 200 -
+2018-02-24 22:31:26,683 : INFO : 127.0.0.1 - - [24/Feb/2018 22:31:26] "POST /postjson HTTP/1.1" 400 -
+2018-02-24 22:31:27,485 : INFO : 127.0.0.1 - - [24/Feb/2018 22:31:27] "POST /postjson HTTP/1.0" 400 -
+2018-02-24 22:31:28,468 : INFO : 127.0.0.1 - - [24/Feb/2018 22:31:28] "POST /postjson HTTP/1.0" 400 -
+2018-02-24 22:31:29,740 : INFO : 127.0.0.1 - - [24/Feb/2018 22:31:29] "POST /postjson HTTP/1.0" 400 -
+2018-02-24 22:31:32,604 : INFO : 127.0.0.1 - - [24/Feb/2018 22:31:32] "POST /postjson HTTP/1.0" 400 -
+2018-02-24 22:31:33,927 : INFO : 127.0.0.1 - - [24/Feb/2018 22:31:33] "POST /postjson HTTP/1.0" 400 -
+2018-02-24 22:31:34,656 : INFO : 127.0.0.1 - - [24/Feb/2018 22:31:34] "POST /postjson HTTP/1.0" 400 -
+2018-02-24 22:31:35,577 : INFO : 127.0.0.1 - - [24/Feb/2018 22:31:35] "POST /postjson HTTP/1.0" 400 -
+2018-02-24 22:33:34,781 : INFO : 127.0.0.1 - - [24/Feb/2018 22:33:34] "POST /postjson HTTP/1.1" 200 -
+2018-02-24 22:33:35,766 : INFO : 127.0.0.1 - - [24/Feb/2018 22:33:35] "POST /postjson HTTP/1.0" 200 -
+2018-02-24 22:33:36,617 : INFO : 127.0.0.1 - - [24/Feb/2018 22:33:36] "POST /postjson HTTP/1.0" 200 -
+2018-02-24 22:33:37,543 : INFO : 127.0.0.1 - - [24/Feb/2018 22:33:37] "POST /postjson HTTP/1.0" 200 -
+2018-02-24 22:34:48,382 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:34:48,491 : INFO :  * Restarting with stat
+2018-02-24 22:34:49,524 : WARNING :  * Debugger is active!
+2018-02-24 22:34:49,543 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:34:52,615 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:34:52,695 : INFO :  * Restarting with stat
+2018-02-24 22:34:53,403 : WARNING :  * Debugger is active!
+2018-02-24 22:34:53,453 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:35:23,101 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:35:23,180 : INFO :  * Restarting with stat
+2018-02-24 22:35:23,713 : WARNING :  * Debugger is active!
+2018-02-24 22:35:23,726 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:36:14,810 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:36:14,920 : INFO :  * Restarting with stat
+2018-02-24 22:36:16,353 : WARNING :  * Debugger is active!
+2018-02-24 22:36:16,374 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:36:18,434 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:36:18,519 : INFO :  * Restarting with stat
+2018-02-24 22:36:19,149 : WARNING :  * Debugger is active!
+2018-02-24 22:36:19,163 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:36:24,290 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:36:24,373 : INFO :  * Restarting with stat
+2018-02-24 22:36:24,881 : WARNING :  * Debugger is active!
+2018-02-24 22:36:24,894 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:36:27,958 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:36:28,054 : INFO :  * Restarting with stat
+2018-02-24 22:36:28,783 : WARNING :  * Debugger is active!
+2018-02-24 22:36:28,796 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:36:50,279 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:36:50,354 : INFO :  * Restarting with stat
+2018-02-24 22:36:50,957 : WARNING :  * Debugger is active!
+2018-02-24 22:36:50,970 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:36:51,992 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:36:52,077 : INFO :  * Restarting with stat
+2018-02-24 22:36:52,709 : WARNING :  * Debugger is active!
+2018-02-24 22:36:52,721 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:36:55,822 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:36:55,906 : INFO :  * Restarting with stat
+2018-02-24 22:36:56,511 : WARNING :  * Debugger is active!
+2018-02-24 22:36:56,524 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:37:59,330 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 22:37:59,331 : INFO :  * Restarting with stat
+2018-02-24 22:37:59,979 : WARNING :  * Debugger is active!
+2018-02-24 22:37:59,993 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:38:13,538 : INFO : 127.0.0.1 - - [24/Feb/2018 22:38:13] "POST /location HTTP/1.1" 500 -
+2018-02-24 22:38:14,471 : INFO : 127.0.0.1 - - [24/Feb/2018 22:38:14] "POST /location HTTP/1.1" 500 -
+2018-02-24 22:38:15,472 : INFO : 127.0.0.1 - - [24/Feb/2018 22:38:15] "POST /location HTTP/1.1" 500 -
+2018-02-24 22:38:16,600 : INFO : 127.0.0.1 - - [24/Feb/2018 22:38:16] "POST /location HTTP/1.1" 500 -
+2018-02-24 22:39:22,764 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:39:22,907 : INFO :  * Restarting with stat
+2018-02-24 22:39:23,875 : WARNING :  * Debugger is active!
+2018-02-24 22:39:23,891 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:41:02,324 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:41:02,410 : INFO :  * Restarting with stat
+2018-02-24 22:41:03,253 : WARNING :  * Debugger is active!
+2018-02-24 22:41:03,284 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:41:08,400 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:41:08,473 : INFO :  * Restarting with stat
+2018-02-24 22:41:09,120 : WARNING :  * Debugger is active!
+2018-02-24 22:41:09,133 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:41:15,281 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:41:15,370 : INFO :  * Restarting with stat
+2018-02-24 22:41:15,955 : WARNING :  * Debugger is active!
+2018-02-24 22:41:15,968 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:41:27,235 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:41:27,350 : INFO :  * Restarting with stat
+2018-02-24 22:56:20,183 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 22:56:20,185 : INFO :  * Restarting with stat
+2018-02-24 22:56:20,687 : WARNING :  * Debugger is active!
+2018-02-24 22:56:20,714 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:56:29,804 : INFO : 127.0.0.1 - - [24/Feb/2018 22:56:29] "GET /location/4 HTTP/1.1" 404 -
+2018-02-24 22:56:41,980 : INFO : 127.0.0.1 - - [24/Feb/2018 22:56:41] "GET / HTTP/1.1" 302 -
+2018-02-24 22:56:42,182 : INFO : 127.0.0.1 - - [24/Feb/2018 22:56:42] "GET /echo HTTP/1.1" 404 -
+2018-02-24 22:57:26,143 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:57:26,287 : INFO :  * Restarting with stat
+2018-02-24 22:57:26,841 : WARNING :  * Debugger is active!
+2018-02-24 22:57:26,857 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:57:28,587 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 22:57:28,588 : INFO :  * Restarting with stat
+2018-02-24 22:57:29,059 : WARNING :  * Debugger is active!
+2018-02-24 22:57:29,072 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:57:32,440 : INFO : 127.0.0.1 - - [24/Feb/2018 22:57:32] "GET /echo HTTP/1.1" 404 -
+2018-02-24 22:57:34,470 : INFO : 127.0.0.1 - - [24/Feb/2018 22:57:34] "GET /echo HTTP/1.1" 404 -
+2018-02-24 22:57:48,511 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:57:48,601 : INFO :  * Restarting with stat
+2018-02-24 22:57:49,257 : WARNING :  * Debugger is active!
+2018-02-24 22:57:49,272 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:58:18,977 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 22:58:19,101 : INFO :  * Restarting with stat
+2018-02-24 22:58:19,703 : WARNING :  * Debugger is active!
+2018-02-24 22:58:19,734 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:58:29,746 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 22:58:29,747 : INFO :  * Restarting with stat
+2018-02-24 22:58:30,228 : WARNING :  * Debugger is active!
+2018-02-24 22:58:30,242 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 22:58:36,521 : INFO : 127.0.0.1 - - [24/Feb/2018 22:58:36] "GET /testLocationInt HTTP/1.1" 404 -
+2018-02-24 22:58:41,132 : INFO : 127.0.0.1 - - [24/Feb/2018 22:58:41] "GET /testLocationInt/2 HTTP/1.1" 200 -
+2018-02-24 22:59:12,980 : INFO : 127.0.0.1 - - [24/Feb/2018 22:59:12] "POST /location HTTP/1.1" 500 -
+2018-02-24 22:59:14,197 : INFO : 127.0.0.1 - - [24/Feb/2018 22:59:14] "POST /location HTTP/1.1" 500 -
+2018-02-24 22:59:16,267 : INFO : 127.0.0.1 - - [24/Feb/2018 22:59:16] "POST /location HTTP/1.1" 500 -
+2018-02-24 22:59:16,910 : INFO : 127.0.0.1 - - [24/Feb/2018 22:59:16] "POST /location HTTP/1.1" 500 -
+2018-02-24 22:59:17,883 : INFO : 127.0.0.1 - - [24/Feb/2018 22:59:17] "POST /location HTTP/1.1" 500 -
+2018-02-24 22:59:18,777 : INFO : 127.0.0.1 - - [24/Feb/2018 22:59:18] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:02:45,847 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:02:46,002 : INFO :  * Restarting with stat
+2018-02-24 23:02:46,820 : WARNING :  * Debugger is active!
+2018-02-24 23:02:46,836 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:02:57,086 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:02:57,170 : INFO :  * Restarting with stat
+2018-02-24 23:02:57,744 : WARNING :  * Debugger is active!
+2018-02-24 23:02:57,757 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:03:20,240 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:03:20,340 : INFO :  * Restarting with stat
+2018-02-24 23:03:21,098 : WARNING :  * Debugger is active!
+2018-02-24 23:03:21,118 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:03:23,160 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:03:23,243 : INFO :  * Restarting with stat
+2018-02-24 23:03:23,694 : WARNING :  * Debugger is active!
+2018-02-24 23:03:23,710 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:03:26,016 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 23:03:26,017 : INFO :  * Restarting with stat
+2018-02-24 23:03:26,502 : WARNING :  * Debugger is active!
+2018-02-24 23:03:26,515 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:03:44,955 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:44] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:45,870 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:45] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:46,814 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:46] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:47,409 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:47] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:47,416 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:47] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:48,534 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:48] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:49,576 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:49] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:50,166 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:50] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:50,683 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:50] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:51,298 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:51] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:52,220 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:52] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:54,040 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:54] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:54,677 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:54] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:55,292 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:55] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:57,134 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:57] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:58,351 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:58] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:59,285 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:59] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:03:59,933 : INFO : 127.0.0.1 - - [24/Feb/2018 23:03:59] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:04:00,514 : INFO : 127.0.0.1 - - [24/Feb/2018 23:04:00] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:04:01,131 : INFO : 127.0.0.1 - - [24/Feb/2018 23:04:01] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:04:01,743 : INFO : 127.0.0.1 - - [24/Feb/2018 23:04:01] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:04:02,481 : INFO : 127.0.0.1 - - [24/Feb/2018 23:04:02] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:04:03,284 : INFO : 127.0.0.1 - - [24/Feb/2018 23:04:03] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:04:04,527 : INFO : 127.0.0.1 - - [24/Feb/2018 23:04:04] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:05:05,645 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:05:05,779 : INFO :  * Restarting with stat
+2018-02-24 23:05:06,406 : WARNING :  * Debugger is active!
+2018-02-24 23:05:06,468 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:05:18,801 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:05:18,982 : INFO :  * Restarting with stat
+2018-02-24 23:05:19,587 : WARNING :  * Debugger is active!
+2018-02-24 23:05:19,603 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:05:29,847 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:05:30,024 : INFO :  * Restarting with stat
+2018-02-24 23:05:30,791 : WARNING :  * Debugger is active!
+2018-02-24 23:05:30,805 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:06:11,725 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:06:11,809 : INFO :  * Restarting with stat
+2018-02-24 23:06:12,421 : WARNING :  * Debugger is active!
+2018-02-24 23:06:12,434 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:06:36,999 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:06:37,083 : INFO :  * Restarting with stat
+2018-02-24 23:06:37,642 : WARNING :  * Debugger is active!
+2018-02-24 23:06:37,658 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:06:40,748 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 23:06:40,750 : INFO :  * Restarting with stat
+2018-02-24 23:06:41,233 : WARNING :  * Debugger is active!
+2018-02-24 23:06:41,246 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:07:00,168 : INFO : 127.0.0.1 - - [24/Feb/2018 23:07:00] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:07:01,459 : INFO : 127.0.0.1 - - [24/Feb/2018 23:07:01] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:07:02,075 : INFO : 127.0.0.1 - - [24/Feb/2018 23:07:02] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:07:03,066 : INFO : 127.0.0.1 - - [24/Feb/2018 23:07:03] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:07:04,223 : INFO : 127.0.0.1 - - [24/Feb/2018 23:07:04] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:07:04,839 : INFO : 127.0.0.1 - - [24/Feb/2018 23:07:04] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:07:04,940 : INFO : 127.0.0.1 - - [24/Feb/2018 23:07:04] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:07:07,301 : INFO : 127.0.0.1 - - [24/Feb/2018 23:07:07] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:07:07,757 : INFO : 127.0.0.1 - - [24/Feb/2018 23:07:07] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:07:08,219 : INFO : 127.0.0.1 - - [24/Feb/2018 23:07:08] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:07:09,443 : INFO : 127.0.0.1 - - [24/Feb/2018 23:07:09] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:07:10,061 : INFO : 127.0.0.1 - - [24/Feb/2018 23:07:10] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:07:11,064 : INFO : 127.0.0.1 - - [24/Feb/2018 23:07:11] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:07:11,743 : INFO : 127.0.0.1 - - [24/Feb/2018 23:07:11] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:07:12,522 : INFO : 127.0.0.1 - - [24/Feb/2018 23:07:12] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:08:13,203 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:08:13,560 : INFO :  * Restarting with stat
+2018-02-24 23:08:14,361 : WARNING :  * Debugger is active!
+2018-02-24 23:08:14,379 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:09:42,164 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:09:42,274 : INFO :  * Restarting with stat
+2018-02-24 23:09:43,333 : WARNING :  * Debugger is active!
+2018-02-24 23:09:43,352 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:09:58,696 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:09:58,791 : INFO :  * Restarting with stat
+2018-02-24 23:09:59,653 : WARNING :  * Debugger is active!
+2018-02-24 23:09:59,672 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:10:02,669 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 23:10:02,670 : INFO :  * Restarting with stat
+2018-02-24 23:10:03,153 : WARNING :  * Debugger is active!
+2018-02-24 23:10:03,166 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:10:10,514 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:10] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:12,024 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:12] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:12,818 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:12] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:13,492 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:13] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:14,350 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:14] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:14,999 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:14] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:15,914 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:15] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:16,467 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:16] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:17,465 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:17] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:18,518 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:18] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:19,328 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:19] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:20,557 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:20] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:21,241 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:21] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:22,065 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:22] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:22,776 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:22] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:23,345 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:23] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:24,327 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:24] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:25,752 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:25] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:26,367 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:26] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:26,979 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:26] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:27,594 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:27] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:28,319 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:28] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:29,363 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:29] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:30,370 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:30] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:31,694 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:31] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:32,172 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:32] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:32,651 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:32] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:10:33,679 : INFO : 127.0.0.1 - - [24/Feb/2018 23:10:33] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:05,901 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:12:06,068 : INFO :  * Restarting with stat
+2018-02-24 23:12:07,066 : WARNING :  * Debugger is active!
+2018-02-24 23:12:07,084 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:12:21,396 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:12:21,476 : INFO :  * Restarting with stat
+2018-02-24 23:12:22,153 : WARNING :  * Debugger is active!
+2018-02-24 23:12:22,166 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:12:25,897 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 23:12:25,899 : INFO :  * Restarting with stat
+2018-02-24 23:12:26,555 : WARNING :  * Debugger is active!
+2018-02-24 23:12:26,571 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:12:32,909 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:32] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:33,855 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:33] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:35,391 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:35] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:36,620 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:36] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:37,702 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:37] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:38,466 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:38] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:39,787 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:39] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:40,924 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:40] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:41,537 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:41] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:42,150 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:42] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:42,869 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:42] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:43,995 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:43] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:44,778 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:44] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:45,837 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:45] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:46,800 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:46] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:47,373 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:47] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:47,996 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:47] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:48,909 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:48] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:50,234 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:50] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:51,157 : INFO : 127.0.0.1 - - [24/Feb/2018 23:12:51] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:12:54,147 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:12:54,339 : INFO :  * Restarting with stat
+2018-02-24 23:12:55,596 : WARNING :  * Debugger is active!
+2018-02-24 23:12:55,669 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:13:24,271 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:13:24,365 : INFO :  * Restarting with stat
+2018-02-24 23:13:25,031 : WARNING :  * Debugger is active!
+2018-02-24 23:13:25,049 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:13:32,293 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:13:32,370 : INFO :  * Restarting with stat
+2018-02-24 23:13:33,099 : WARNING :  * Debugger is active!
+2018-02-24 23:13:33,114 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:13:41,001 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 23:13:41,003 : INFO :  * Restarting with stat
+2018-02-24 23:13:41,752 : WARNING :  * Debugger is active!
+2018-02-24 23:13:41,767 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:13:42,987 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:42] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:43,901 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:43] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:44,821 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:44] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:45,849 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:45] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:46,762 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:46] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:47,282 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:47] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:48,204 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:48] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:48,742 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:48] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:50,044 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:50] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:50,966 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:50] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:51,958 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:51] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:52,810 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:52] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:53,423 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:53] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:54,655 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:54] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:55,696 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:55] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:56,855 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:56] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:58,560 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:58] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:13:59,370 : INFO : 127.0.0.1 - - [24/Feb/2018 23:13:59] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:14:00,045 : INFO : 127.0.0.1 - - [24/Feb/2018 23:14:00] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:14:01,014 : INFO : 127.0.0.1 - - [24/Feb/2018 23:14:01] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:14:02,642 : INFO : 127.0.0.1 - - [24/Feb/2018 23:14:02] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:14:03,068 : INFO : 127.0.0.1 - - [24/Feb/2018 23:14:03] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:14:03,763 : INFO : 127.0.0.1 - - [24/Feb/2018 23:14:03] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:14:04,483 : INFO : 127.0.0.1 - - [24/Feb/2018 23:14:04] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:04,535 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:15:04,656 : INFO :  * Restarting with stat
+2018-02-24 23:15:05,204 : WARNING :  * Debugger is active!
+2018-02-24 23:15:05,222 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:15:09,732 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 23:15:09,733 : INFO :  * Restarting with stat
+2018-02-24 23:15:10,213 : WARNING :  * Debugger is active!
+2018-02-24 23:15:10,226 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:15:16,026 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:16] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:17,292 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:17] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:17,744 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:17] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:18,214 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:18] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:19,211 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:19] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:20,364 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:20] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:21,382 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:21] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:23,438 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:23] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:24,454 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:24] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:25,279 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:25] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:25,894 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:25] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:26,657 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:26] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:27,472 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:27] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:28,352 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:28] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:29,132 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:29] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:29,550 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:29] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:30,133 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:30] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:31,115 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:31] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:32,346 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:32] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:33,266 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:33] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:15:34,149 : INFO : 127.0.0.1 - - [24/Feb/2018 23:15:34] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:17:10,742 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:17:10,963 : INFO :  * Restarting with stat
+2018-02-24 23:17:11,861 : WARNING :  * Debugger is active!
+2018-02-24 23:17:11,877 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:17:14,948 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:17:15,044 : INFO :  * Restarting with stat
+2018-02-24 23:17:15,701 : WARNING :  * Debugger is active!
+2018-02-24 23:17:15,731 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:17:16,780 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:17:16,861 : INFO :  * Restarting with stat
+2018-02-24 23:17:17,514 : WARNING :  * Debugger is active!
+2018-02-24 23:17:17,546 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:17:20,522 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 23:17:20,523 : INFO :  * Restarting with stat
+2018-02-24 23:17:20,988 : WARNING :  * Debugger is active!
+2018-02-24 23:17:21,001 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:20:44,479 : INFO : 127.0.0.1 - - [24/Feb/2018 23:20:44] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:20:46,178 : INFO : 127.0.0.1 - - [24/Feb/2018 23:20:46] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:20:47,233 : INFO : 127.0.0.1 - - [24/Feb/2018 23:20:47] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:20:48,154 : INFO : 127.0.0.1 - - [24/Feb/2018 23:20:48] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:20:50,918 : INFO : 127.0.0.1 - - [24/Feb/2018 23:20:50] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:20:52,390 : INFO : 127.0.0.1 - - [24/Feb/2018 23:20:52] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:20:53,875 : INFO : 127.0.0.1 - - [24/Feb/2018 23:20:53] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:20:54,915 : INFO : 127.0.0.1 - - [24/Feb/2018 23:20:54] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:20:56,331 : INFO : 127.0.0.1 - - [24/Feb/2018 23:20:56] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:20:57,598 : INFO : 127.0.0.1 - - [24/Feb/2018 23:20:57] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:20:58,471 : INFO : 127.0.0.1 - - [24/Feb/2018 23:20:58] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:21:01,311 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:21:01,438 : INFO :  * Restarting with stat
+2018-02-24 23:21:01,995 : WARNING :  * Debugger is active!
+2018-02-24 23:21:02,011 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:21:05,012 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 23:21:05,013 : INFO :  * Restarting with stat
+2018-02-24 23:21:05,625 : WARNING :  * Debugger is active!
+2018-02-24 23:21:05,642 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:21:06,778 : INFO : 127.0.0.1 - - [24/Feb/2018 23:21:06] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:21:07,690 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:21:07,901 : INFO :  * Restarting with stat
+2018-02-24 23:21:10,334 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 23:21:10,335 : INFO :  * Restarting with stat
+2018-02-24 23:21:10,820 : WARNING :  * Debugger is active!
+2018-02-24 23:21:10,833 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:21:10,852 : INFO : 127.0.0.1 - - [24/Feb/2018 23:21:10] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:21:11,756 : INFO : 127.0.0.1 - - [24/Feb/2018 23:21:11] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:21:12,638 : INFO : 127.0.0.1 - - [24/Feb/2018 23:21:12] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:21:13,653 : INFO : 127.0.0.1 - - [24/Feb/2018 23:21:13] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:21:14,881 : INFO : 127.0.0.1 - - [24/Feb/2018 23:21:14] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:21:15,801 : INFO : 127.0.0.1 - - [24/Feb/2018 23:21:15] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:21:16,589 : INFO : 127.0.0.1 - - [24/Feb/2018 23:21:16] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:21:17,647 : INFO : 127.0.0.1 - - [24/Feb/2018 23:21:17] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:21:18,453 : INFO : 127.0.0.1 - - [24/Feb/2018 23:21:18] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:21:19,182 : INFO : 127.0.0.1 - - [24/Feb/2018 23:21:19] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:21:20,105 : INFO : 127.0.0.1 - - [24/Feb/2018 23:21:20] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:21:21,026 : INFO : 127.0.0.1 - - [24/Feb/2018 23:21:21] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:21:21,947 : INFO : 127.0.0.1 - - [24/Feb/2018 23:21:21] "POST /location HTTP/1.1" 500 -
+2018-02-24 23:21:42,539 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 23:21:42,676 : INFO :  * Restarting with stat
+2018-02-24 23:21:43,575 : WARNING :  * Debugger is active!
+2018-02-24 23:21:43,593 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 23:21:44,601 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 23:21:44,603 : INFO :  * Restarting with stat
+2018-02-24 23:21:45,099 : WARNING :  * Debugger is active!
+2018-02-24 23:21:45,113 : INFO :  * Debugger PIN: 340-137-893

@@ -11,7 +11,6 @@ import time
 from cameraStream import VideoCamera
 import cv2
 
-
 client = nexmo.Client(key="b526e0a6", secret="BK0lyP7Uz4xH2WVe")
 
 app = Flask(__name__,
@@ -25,14 +24,26 @@ def configure_app(flask_app):
     flask_app.config['SERVER_NAME'] = settings.FLASK_SERVER_NAME
     flask_app.config['TEMPLATES_AUTO_RELOAD'] = settings.TEMPLATES_AUTO_RELOAD
 
-@app.route('/echo', methods = ['GET', 'POST', 'PATCH', 'PUT', 'DELETE'])
+
+def sendMessage(message, number):
+
+    # number = "+4917663177714"
+    messageTxt = "Table 17. Empty glass"
+
+    messageTxt = message
+
+    try:
+        client.send_message({'from': 'Waiterly','to': number,'text': messageTxt})
+
+        log.info("Message has been sent. Content: %s" % messageTxt)
+
+    except Exception as error:
+        log.error("Error while sending message")
+
+@app.route('/testingMessages', methods = ['GET', 'POST', 'PATCH', 'PUT', 'DELETE'])
 def api_echo():
     # if request.method == 'GET':
     #     return "ECHO: GET\n"
-
-    number = "+4917663177714"
-    messageTxt = "Table 17. Empty glass"
-
     try:
         client.send_message({'from': 'Waiterly','to': number ,'text': messageTxt})
 
@@ -47,10 +58,74 @@ def api_echo():
     )
 
 
-@app.route('/location/<int:data>')
+@app.route('/testLocationInt/<int:data>')
 def testLocation(data):
-    print ('data is %d!' % (data))
-    return 'data is %d!' % (data)
+
+    print ('data is %s!' % (data))
+
+    return jsonify(data)
+
+
+# waiter_locations = [[1,1], [0,0]]
+# table_location = [[2,2]]
+
+def closest(waiter_locations, table_location):
+    dist = []
+
+    if len(waiter_locations) != 0:
+        if len(waiter_locations[0]) < 2:
+            waiter = waiter_locations[0]
+
+            x = waiter[0]
+            y = waiter[1]
+
+            dist.append((x - table_location[0]) ** 2 + (y - table_location[1]) ** 2)
+
+            return 0
+
+        else:
+            for x in waiter_locations:
+                dist.append((x[0] - table_location[0]) ** 2 + (x[1] - table_location[1]) ** 2)
+
+            return dist.index(min(dist))
+
+    else:
+        print("Error in calc locations")
+
+
+
+@app.route('/location', methods = ['POST'])
+def postJsonHandler():
+
+    print (request.is_json)
+
+    content = request.get_json()
+
+    # print(content)
+
+    json_str = json.dumps(content)
+
+    data = json.loads(json_str)
+
+    locationX = int(data['x'])
+    locationY = int(data['y'])
+    userID = data['id']
+
+    for key, value in content.items():
+        print(key, value)
+
+    location = [[locationX, locationY]]
+    # location = [[2, 4]]
+
+    tableLocation = [2, 10]
+
+    print(closest(location, tableLocation))
+
+    if userID != "":
+        message = "Table 17. Empty glass"
+        sendMessage(message, userID)
+
+    return 'Location sent'
 
 
 def gen(camera):
