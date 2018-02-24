@@ -1,0 +1,256 @@
+2018-02-23 09:09:09,630 : INFO : Starting server
+2018-02-23 09:09:09,663 : INFO :  * Running on http://127.0.0.1:8888/ (Press CTRL+C to quit)
+2018-02-23 09:09:09,665 : INFO :  * Restarting with stat
+2018-02-23 09:09:10,001 : INFO : Starting server
+2018-02-23 09:09:10,024 : WARNING :  * Debugger is active!
+2018-02-23 09:09:10,055 : INFO :  * Debugger PIN: 444-596-300
+2018-02-23 09:10:18,053 : INFO : 127.0.0.1 - - [23/Feb/2018 09:10:18] "GET /doordaApi/ HTTP/1.1" 200 -
+2018-02-23 09:10:18,130 : INFO : 127.0.0.1 - - [23/Feb/2018 09:10:18] "GET /stylesheets/screen.css HTTP/1.1" 200 -
+2018-02-23 09:10:18,134 : INFO : 127.0.0.1 - - [23/Feb/2018 09:10:18] "GET /stylesheets/print.css HTTP/1.1" 200 -
+2018-02-23 09:10:18,140 : INFO : 127.0.0.1 - - [23/Feb/2018 09:10:18] "GET /stylesheets/custom-styles.css HTTP/1.1" 200 -
+2018-02-23 09:10:18,145 : INFO : 127.0.0.1 - - [23/Feb/2018 09:10:18] "GET /javascripts/all.js HTTP/1.1" 200 -
+2018-02-23 09:10:18,153 : INFO : 127.0.0.1 - - [23/Feb/2018 09:10:18] "GET /javascripts/apiTest.js HTTP/1.1" 200 -
+2018-02-23 09:10:18,160 : INFO : 127.0.0.1 - - [23/Feb/2018 09:10:18] "GET /javascripts/renderjson.js HTTP/1.1" 200 -
+2018-02-23 09:10:18,169 : INFO : 127.0.0.1 - - [23/Feb/2018 09:10:18] "GET /images/navbar.png HTTP/1.1" 200 -
+2018-02-23 09:10:18,192 : INFO : 127.0.0.1 - - [23/Feb/2018 09:10:18] "GET /images/logo.png HTTP/1.1" 200 -
+2018-02-23 09:10:38,001 : INFO : 127.0.0.1 - - [23/Feb/2018 09:10:38] "GET /fonts/slate.woff2?-syv14m HTTP/1.1" 200 -
+2018-02-23 09:10:38,401 : INFO : 127.0.0.1 - - [23/Feb/2018 09:10:38] "GET /favicon.ico HTTP/1.1" 404 -
+2018-02-23 09:13:37,147 : DEBUG : Starting new HTTP connection (1): api.doorda.com
+2018-02-23 09:13:37,269 : DEBUG : http://api.doorda.com:8000 "GET /beta/postcode/sn2%202eh HTTP/1.1" 200 5717
+2018-02-23 09:13:37,271 : INFO : Succesfully call API. Info: <Response [200]>
+2018-02-23 09:13:37,271 : INFO : Returned JSON object to AJAX call
+2018-02-23 09:13:37,272 : INFO : 127.0.0.1 - - [23/Feb/2018 09:13:37] "GET /_apiQuery?apiQ0=%0A++++++++++++++++http%3A%2F%2Fapi.doorda.com%3A8000%2Fbeta%2Fpostcode%2F%0A++++++++++++&apiQ1=aZhkwR9AZUgirytY6Qfp35UoI3ErLALv&apiQ2=sn2+2eh&apiQ3=1 HTTP/1.1" 200 -
+2018-02-23 09:13:41,336 : DEBUG : Starting new HTTP connection (1): api.doorda.com
+2018-02-23 09:13:41,386 : DEBUG : http://api.doorda.com:8000 "GET /beta/postcode/sn2%202eh HTTP/1.1" 200 5717
+2018-02-23 09:13:41,387 : INFO : Succesfully call API. Info: <Response [200]>
+2018-02-23 09:13:41,388 : INFO : Returned JSON object to AJAX call
+2018-02-23 09:13:41,388 : INFO : 127.0.0.1 - - [23/Feb/2018 09:13:41] "GET /_apiQuery?apiQ0=%0A++++++++++++++++http%3A%2F%2Fapi.doorda.com%3A8000%2Fbeta%2Fpostcode%2F%0A++++++++++++&apiQ1=aZhkwR9AZUgirytY6Qfp35UoI3ErLALv&apiQ2=sn2+2eh&apiQ3=1 HTTP/1.1" 200 -
+2018-02-23 09:15:03,022 : INFO :  * Detected change in '/Users/adamj/Documents/doordaWork/doordaDocs/docsApp/app.py', reloading
+2018-02-23 09:15:03,074 : INFO :  * Restarting with stat
+2018-02-23 09:15:03,566 : INFO : Starting server
+2018-02-23 09:15:03,596 : WARNING :  * Debugger is active!
+2018-02-23 09:15:03,617 : INFO :  * Debugger PIN: 444-596-300
+2018-02-23 09:15:23,031 : DEBUG : Starting new HTTP connection (1): api.doorda.com
+2018-02-23 09:15:23,075 : DEBUG : http://api.doorda.com:8000 "GET /beta/postcode/sn2%202e HTTP/1.1" 404 0
+2018-02-23 09:15:23,077 : INFO : Successfully call API. Info: <Response [404]>
+2018-02-23 09:15:23,090 : INFO : 127.0.0.1 - - [23/Feb/2018 09:15:23] "GET /_apiQuery?apiQ0=%0A++++++++++++++++http%3A%2F%2Fapi.doorda.com%3A8000%2Fbeta%2Fpostcode%2F%0A++++++++++++&apiQ1=aZhkwR9AZUgirytY6Qfp35UoI3ErLALv&apiQ2=sn2+2e&apiQ3=1 HTTP/1.1" 500 -
+2018-02-24 19:52:29,557 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 19:53:19,835 : INFO : 127.0.0.1 - - [24/Feb/2018 19:53:19] "GET /echo HTTP/1.1" 200 -
+2018-02-24 19:53:43,918 : INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-02-24 19:54:15,817 : INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-02-24 19:56:55,807 : INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-02-24 19:57:03,713 : INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-02-24 19:57:26,851 : INFO : 127.0.0.1 - - [24/Feb/2018 19:57:26] "GET /echo HTTP/1.1" 200 -
+2018-02-24 19:57:28,884 : INFO : 172.16.2.61 - - [24/Feb/2018 19:57:28] "GET / HTTP/1.1" 404 -
+2018-02-24 19:57:32,226 : INFO : 172.16.2.61 - - [24/Feb/2018 19:57:32] "GET /echo HTTP/1.1" 404 -
+2018-02-24 19:58:36,020 : INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-02-24 19:58:36,022 : INFO :  * Restarting with stat
+2018-02-24 19:58:36,342 : WARNING :  * Debugger is active!
+2018-02-24 19:58:36,365 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 19:58:40,345 : INFO : 172.16.2.61 - - [24/Feb/2018 19:58:40] "GET /echo HTTP/1.1" 404 -
+2018-02-24 20:17:18,812 : INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-02-24 20:17:18,814 : INFO :  * Restarting with stat
+2018-02-24 20:17:19,187 : WARNING :  * Debugger is active!
+2018-02-24 20:17:19,204 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:29:15,997 : INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-02-24 20:29:15,998 : INFO :  * Restarting with stat
+2018-02-24 20:29:16,335 : WARNING :  * Debugger is active!
+2018-02-24 20:29:16,362 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:29:29,450 : INFO : 127.0.0.1 - - [24/Feb/2018 20:29:29] "GET /echo HTTP/1.1" 200 -
+2018-02-24 20:30:01,958 : INFO : 127.0.0.1 - - [24/Feb/2018 20:30:01] "GET / HTTP/1.1" 404 -
+2018-02-24 20:30:02,546 : INFO : 127.0.0.1 - - [24/Feb/2018 20:30:02] "GET /favicon.ico HTTP/1.1" 404 -
+2018-02-24 20:30:20,253 : INFO : 127.0.0.1 - - [24/Feb/2018 20:30:20] "GET /echoi HTTP/1.1" 404 -
+2018-02-24 20:30:22,904 : INFO : 127.0.0.1 - - [24/Feb/2018 20:30:22] "GET /echo HTTP/1.1" 404 -
+2018-02-24 20:30:49,983 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 20:30:50,065 : INFO :  * Restarting with stat
+2018-02-24 20:30:50,559 : WARNING :  * Debugger is active!
+2018-02-24 20:30:50,576 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:30:52,612 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 20:30:52,681 : INFO :  * Restarting with stat
+2018-02-24 20:30:53,452 : WARNING :  * Debugger is active!
+2018-02-24 20:30:53,466 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:31:07,835 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 20:31:07,836 : INFO :  * Restarting with stat
+2018-02-24 20:31:08,191 : WARNING :  * Debugger is active!
+2018-02-24 20:31:08,204 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:31:14,371 : INFO : 127.0.0.1 - - [24/Feb/2018 20:31:14] "GET /waiter HTTP/1.1" 301 -
+2018-02-24 20:31:14,391 : INFO : 127.0.0.1 - - [24/Feb/2018 20:31:14] "GET /waiter/ HTTP/1.1" 200 -
+2018-02-24 20:31:20,589 : INFO : 127.0.0.1 - - [24/Feb/2018 20:31:20] "GET /waiter HTTP/1.1" 404 -
+2018-02-24 20:32:25,555 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 20:32:25,620 : INFO :  * Restarting with stat
+2018-02-24 20:32:26,422 : WARNING :  * Debugger is active!
+2018-02-24 20:32:26,450 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:32:29,539 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 20:32:29,540 : INFO :  * Restarting with stat
+2018-02-24 20:32:29,902 : WARNING :  * Debugger is active!
+2018-02-24 20:32:29,915 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:32:33,821 : INFO : 127.0.0.1 - - [24/Feb/2018 20:32:33] "GET /waiter/ HTTP/1.1" 404 -
+2018-02-24 20:32:35,835 : INFO : 127.0.0.1 - - [24/Feb/2018 20:32:35] "GET /waiter/ HTTP/1.1" 404 -
+2018-02-24 20:32:39,657 : INFO : 127.0.0.1 - - [24/Feb/2018 20:32:39] "GET / HTTP/1.1" 302 -
+2018-02-24 20:32:39,661 : INFO : 127.0.0.1 - - [24/Feb/2018 20:32:39] "GET /echo HTTP/1.1" 200 -
+2018-02-24 20:32:43,240 : INFO : 127.0.0.1 - - [24/Feb/2018 20:32:43] "GET /waiter/ HTTP/1.1" 404 -
+2018-02-24 20:32:58,272 : INFO : 127.0.0.1 - - [24/Feb/2018 20:32:58] "GET /waiter HTTP/1.1" 404 -
+2018-02-24 20:32:59,643 : INFO : 127.0.0.1 - - [24/Feb/2018 20:32:59] "GET /waiter HTTP/1.1" 404 -
+2018-02-24 20:33:00,387 : INFO : 127.0.0.1 - - [24/Feb/2018 20:33:00] "GET /waiter HTTP/1.1" 404 -
+2018-02-24 20:33:00,730 : INFO : 127.0.0.1 - - [24/Feb/2018 20:33:00] "GET /waiter HTTP/1.1" 404 -
+2018-02-24 20:33:14,431 : INFO : 127.0.0.1 - - [24/Feb/2018 20:33:14] "GET /waiter/ HTTP/1.1" 404 -
+2018-02-24 20:33:17,820 : INFO : 127.0.0.1 - - [24/Feb/2018 20:33:17] "GET /waiter/ HTTP/1.1" 404 -
+2018-02-24 20:33:22,843 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 20:33:22,904 : INFO :  * Restarting with stat
+2018-02-24 20:33:24,155 : WARNING :  * Debugger is active!
+2018-02-24 20:33:24,187 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:33:25,388 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 20:33:25,389 : INFO :  * Restarting with stat
+2018-02-24 20:33:25,735 : WARNING :  * Debugger is active!
+2018-02-24 20:33:25,749 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:33:28,680 : INFO : 127.0.0.1 - - [24/Feb/2018 20:33:28] "GET /waiter/ HTTP/1.1" 200 -
+2018-02-24 20:33:50,806 : INFO : 127.0.0.1 - - [24/Feb/2018 20:33:50] "GET /waiter/ HTTP/1.1" 404 -
+2018-02-24 20:33:50,809 : INFO : 127.0.0.1 - - [24/Feb/2018 20:33:50] "GET /waiter/ HTTP/1.1" 404 -
+2018-02-24 20:34:05,209 : INFO : 127.0.0.1 - - [24/Feb/2018 20:34:05] "GET /waiter/ HTTP/1.1" 404 -
+2018-02-24 20:34:06,321 : INFO : 127.0.0.1 - - [24/Feb/2018 20:34:06] "GET /waiter/ HTTP/1.1" 404 -
+2018-02-24 20:34:12,741 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 20:34:12,743 : INFO :  * Restarting with stat
+2018-02-24 20:34:13,119 : WARNING :  * Debugger is active!
+2018-02-24 20:34:13,141 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:34:25,452 : INFO : 127.0.0.1 - - [24/Feb/2018 20:34:25] "GET / HTTP/1.1" 404 -
+2018-02-24 20:34:27,006 : INFO : 127.0.0.1 - - [24/Feb/2018 20:34:27] "GET /favicon.ico HTTP/1.1" 404 -
+2018-02-24 20:34:29,584 : INFO : 127.0.0.1 - - [24/Feb/2018 20:34:29] "GET /waiter HTTP/1.1" 404 -
+2018-02-24 20:34:35,135 : INFO : 127.0.0.1 - - [24/Feb/2018 20:34:35] "GET /echo HTTP/1.1" 404 -
+2018-02-24 20:34:47,880 : INFO : 127.0.0.1 - - [24/Feb/2018 20:34:47] "GET /waiter/ HTTP/1.1" 200 -
+2018-02-24 20:34:59,948 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 20:35:00,045 : INFO :  * Restarting with stat
+2018-02-24 20:35:00,585 : WARNING :  * Debugger is active!
+2018-02-24 20:35:00,627 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:35:04,686 : INFO :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-02-24 20:35:04,687 : INFO :  * Restarting with stat
+2018-02-24 20:35:05,065 : WARNING :  * Debugger is active!
+2018-02-24 20:35:05,078 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:35:13,485 : INFO : 127.0.0.1 - - [24/Feb/2018 20:35:13] "GET / HTTP/1.1" 404 -
+2018-02-24 20:35:14,909 : INFO : 127.0.0.1 - - [24/Feb/2018 20:35:14] "GET /favicon.ico HTTP/1.1" 404 -
+2018-02-24 20:35:17,626 : INFO : 127.0.0.1 - - [24/Feb/2018 20:35:17] "GET /echo HTTP/1.1" 404 -
+2018-02-24 20:35:33,729 : INFO : 172.16.2.61 - - [24/Feb/2018 20:35:33] "GET / HTTP/1.1" 404 -
+2018-02-24 20:35:37,670 : INFO : 172.16.2.61 - - [24/Feb/2018 20:35:37] "GET /echo HTTP/1.1" 404 -
+2018-02-24 20:35:48,098 : INFO : 127.0.0.1 - - [24/Feb/2018 20:35:48] "GET /waiter/ HTTP/1.1" 200 -
+2018-02-24 20:38:20,564 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 20:38:20,682 : INFO :  * Restarting with stat
+2018-02-24 20:38:21,418 : WARNING :  * Debugger is active!
+2018-02-24 20:38:21,435 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:38:24,371 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 20:38:24,372 : INFO :  * Restarting with stat
+2018-02-24 20:38:24,785 : WARNING :  * Debugger is active!
+2018-02-24 20:38:24,799 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:38:30,035 : INFO : 127.0.0.1 - - [24/Feb/2018 20:38:30] "GET /waiter/ HTTP/1.1" 200 -
+2018-02-24 20:39:04,278 : INFO : 127.0.0.1 - - [24/Feb/2018 20:39:04] "GET / HTTP/1.1" 302 -
+2018-02-24 20:39:04,471 : INFO : 127.0.0.1 - - [24/Feb/2018 20:39:04] "GET /echo HTTP/1.1" 200 -
+2018-02-24 20:39:11,124 : INFO : 127.0.0.1 - - [24/Feb/2018 20:39:11] "GET /waiter HTTP/1.1" 301 -
+2018-02-24 20:39:11,317 : INFO : 127.0.0.1 - - [24/Feb/2018 20:39:11] "GET /waiter/ HTTP/1.1" 200 -
+2018-02-24 20:39:25,251 : INFO : 127.0.0.1 - - [24/Feb/2018 20:39:25] "GET /waiter/ HTTP/1.1" 200 -
+2018-02-24 20:39:25,418 : INFO : 127.0.0.1 - - [24/Feb/2018 20:39:25] "GET /favicon.ico HTTP/1.1" 404 -
+2018-02-24 20:39:44,221 : INFO : 127.0.0.1 - - [24/Feb/2018 20:39:44] "GET /waiter/ HTTP/1.1" 200 -
+2018-02-24 20:39:48,205 : INFO : 127.0.0.1 - - [24/Feb/2018 20:39:48] "GET /favicon.ico HTTP/1.1" 404 -
+2018-02-24 20:50:02,299 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 20:50:02,396 : INFO :  * Restarting with stat
+2018-02-24 20:50:03,127 : WARNING :  * Debugger is active!
+2018-02-24 20:50:03,145 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:50:05,237 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 20:50:05,318 : INFO :  * Restarting with stat
+2018-02-24 20:50:05,889 : WARNING :  * Debugger is active!
+2018-02-24 20:50:05,905 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:50:10,013 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 20:50:10,069 : INFO :  * Restarting with stat
+2018-02-24 20:50:57,719 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 20:50:57,720 : INFO :  * Restarting with stat
+2018-02-24 20:50:58,073 : WARNING :  * Debugger is active!
+2018-02-24 20:50:58,096 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:50:59,886 : DEBUG : Starting new HTTPS connection (1): rest.nexmo.com
+2018-02-24 20:51:00,558 : DEBUG : https://rest.nexmo.com:443 "POST /sms/json HTTP/1.1" 200 None
+2018-02-24 20:51:00,563 : INFO : 127.0.0.1 - - [24/Feb/2018 20:51:00] "GET /echo HTTP/1.1" 200 -
+2018-02-24 20:52:41,850 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 20:52:42,003 : INFO :  * Restarting with stat
+2018-02-24 20:52:42,816 : WARNING :  * Debugger is active!
+2018-02-24 20:52:42,830 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:52:45,885 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 20:52:45,948 : INFO :  * Restarting with stat
+2018-02-24 20:52:46,534 : WARNING :  * Debugger is active!
+2018-02-24 20:52:46,549 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:52:59,788 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 20:52:59,977 : INFO :  * Restarting with stat
+2018-02-24 20:53:00,847 : WARNING :  * Debugger is active!
+2018-02-24 20:53:00,861 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:54:04,081 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 20:54:04,296 : INFO :  * Restarting with stat
+2018-02-24 20:54:04,933 : WARNING :  * Debugger is active!
+2018-02-24 20:54:04,947 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 20:54:06,829 : DEBUG : Starting new HTTPS connection (1): rest.nexmo.com
+2018-02-24 20:54:07,218 : DEBUG : https://rest.nexmo.com:443 "POST /sms/json HTTP/1.1" 200 None
+2018-02-24 20:54:07,223 : INFO : 127.0.0.1 - - [24/Feb/2018 20:54:07] "GET /echo HTTP/1.1" 200 -
+2018-02-24 20:54:58,873 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 20:54:58,968 : INFO :  * Restarting with stat
+2018-02-24 21:00:39,584 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 21:00:39,586 : INFO :  * Restarting with stat
+2018-02-24 21:00:39,957 : WARNING :  * Debugger is active!
+2018-02-24 21:00:39,982 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 21:00:54,963 : INFO : 127.0.0.1 - - [24/Feb/2018 21:00:54] "GET /waiter/ HTTP/1.1" 200 -
+2018-02-24 21:00:59,876 : DEBUG : Starting new HTTPS connection (1): rest.nexmo.com
+2018-02-24 21:01:00,244 : DEBUG : https://rest.nexmo.com:443 "POST /sms/json HTTP/1.1" 200 None
+2018-02-24 21:01:00,249 : INFO : Message has been sent. Content: Table 17. Empty glass
+2018-02-24 21:01:00,249 : INFO : 127.0.0.1 - - [24/Feb/2018 21:01:00] "GET /echo HTTP/1.1" 200 -
+2018-02-24 21:01:59,384 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 21:01:59,462 : INFO :  * Restarting with stat
+2018-02-24 21:01:59,924 : WARNING :  * Debugger is active!
+2018-02-24 21:01:59,989 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 21:23:28,885 : DEBUG : Starting new HTTPS connection (1): rest.nexmo.com
+2018-02-24 21:23:29,254 : DEBUG : https://rest.nexmo.com:443 "POST /sms/json HTTP/1.1" 200 None
+2018-02-24 21:23:29,258 : INFO : Message has been sent. Content: Table 17. Empty glass
+2018-02-24 21:23:29,259 : INFO : 127.0.0.1 - - [24/Feb/2018 21:23:29] "GET /echo HTTP/1.1" 200 -
+2018-02-24 21:29:34,482 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 21:29:34,484 : INFO :  * Restarting with stat
+2018-02-24 21:29:34,843 : WARNING :  * Debugger is active!
+2018-02-24 21:29:34,869 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 21:29:36,145 : DEBUG : Starting new HTTPS connection (1): rest.nexmo.com
+2018-02-24 21:29:36,503 : DEBUG : https://rest.nexmo.com:443 "POST /sms/json HTTP/1.1" 200 None
+2018-02-24 21:29:36,507 : INFO : Message has been sent. Content: Table 17. Empty glass
+2018-02-24 21:29:36,508 : INFO : 127.0.0.1 - - [24/Feb/2018 21:29:36] "GET /echo HTTP/1.1" 200 -
+2018-02-24 21:29:43,007 : INFO : 127.0.0.1 - - [24/Feb/2018 21:29:43] "GET /video_feed HTTP/1.1" 500 -
+2018-02-24 21:29:43,444 : INFO : 127.0.0.1 - - [24/Feb/2018 21:29:43] "GET /video_feed?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-02-24 21:29:43,444 : INFO : 127.0.0.1 - - [24/Feb/2018 21:29:43] "GET /video_feed?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-02-24 21:29:43,534 : INFO : 127.0.0.1 - - [24/Feb/2018 21:29:43] "GET /video_feed?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-02-24 21:29:44,013 : INFO : 127.0.0.1 - - [24/Feb/2018 21:29:44] "GET /video_feed?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-02-24 21:29:44,085 : INFO : 127.0.0.1 - - [24/Feb/2018 21:29:44] "GET /video_feed?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-02-24 21:29:44,329 : INFO : 127.0.0.1 - - [24/Feb/2018 21:29:44] "GET /video_feed?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-02-24 21:30:12,610 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 21:30:12,694 : INFO :  * Restarting with stat
+2018-02-24 21:30:13,210 : WARNING :  * Debugger is active!
+2018-02-24 21:30:13,233 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 21:30:15,967 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:15] "GET /video_feed HTTP/1.1" 500 -
+2018-02-24 21:30:16,200 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:16] "GET /video_feed?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-02-24 21:30:16,202 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:16] "GET /video_feed?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-02-24 21:30:16,297 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:16] "GET /video_feed?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-02-24 21:30:16,644 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:16] "GET /video_feed?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-02-24 21:30:16,688 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:16] "GET /video_feed?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-02-24 21:30:16,956 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:16] "GET /video_feed?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-02-24 21:30:19,364 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 21:30:19,365 : INFO :  * Restarting with stat
+2018-02-24 21:30:19,886 : WARNING :  * Debugger is active!
+2018-02-24 21:30:19,903 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 21:30:20,323 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:20] "GET /video_feed HTTP/1.1" 500 -
+2018-02-24 21:30:20,546 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:20] "GET /video_feed?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-02-24 21:30:20,548 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:20] "GET /video_feed?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-02-24 21:30:20,648 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:20] "GET /video_feed?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-02-24 21:30:21,676 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:21] "GET /video_feed?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-02-24 21:30:21,714 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:21] "GET /video_feed?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-02-24 21:30:22,483 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:22] "GET /video_feed?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-02-24 21:30:23,754 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:23] "GET /video_feed HTTP/1.1" 500 -
+2018-02-24 21:30:23,995 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:23] "GET /video_feed?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-02-24 21:30:24,093 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:24] "GET /video_feed?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-02-24 21:30:24,094 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:24] "GET /video_feed?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-02-24 21:30:24,542 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:24] "GET /video_feed?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-02-24 21:30:24,578 : INFO : 127.0.0.1 - - [24/Feb/2018 21:30:24] "GET /video_feed?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-02-24 21:30:33,157 : INFO :  * Detected change in '/Users/adamj/Documents/programming/waiterly/waitrely/app.py', reloading
+2018-02-24 21:30:33,343 : INFO :  * Restarting with stat
+2018-02-24 21:36:58,718 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-24 21:36:58,719 : INFO :  * Restarting with stat
+2018-02-24 21:36:59,235 : WARNING :  * Debugger is active!
+2018-02-24 21:36:59,253 : INFO :  * Debugger PIN: 340-137-893
+2018-02-24 21:37:02,820 : DEBUG : Init Camera
+2018-02-24 21:37:02,845 : INFO : 127.0.0.1 - - [24/Feb/2018 21:37:02] "GET /video_feed HTTP/1.1" 200 -
