@@ -13,7 +13,7 @@
 
 
     /*<script src="{{ url_for('static', filename='javascripts/all.js')}}"></script>*/
-    <script src="{{ url_for('static', filename='javascripts/apiTest.js')}}"></script>
+    /*<script src="{{ url_for('static', filename='javascripts/apiTest.js')}}"></script>*/
     /*<script src="{{ url_for('static', filename='javascripts/renderjson.js')}}"></script>*/
 
     </style>
@@ -22,7 +22,28 @@
 
 <body>
 
-Hi All
+<p>
+{% if info %}
+  Reply from image analysis: {{ info }}
+{% endif %}
+</p>
+
+<p>
+{% if timeStamp %}
+  Time: {{ timeStamp }}
+{% endif %}
+</p>
+
+<p>
+
+    {% if location %}
+    Location: {{ location }}
+    {% endif %}
+
+
+</p>
+
+
 
 </body>
 </html>

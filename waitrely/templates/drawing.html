@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Waitrely Drawing</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <style type="text/css">
+        body {
+            overflow: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<canvas id="canvas" style="background:rgba(255,224,224,225)"></canvas>
+
+<script type=text/javascript>
+
+            $SCRIPT_ROOT = {{request.script_root | tojson | safe}};
+
+</script>
+
+<script src="{{ url_for('static', filename='javascripts/drawing.js')}}"></script>
+
+<script>
+    var data = JSON.parse('{{ locationData | tojson | safe}}');
+
+    var w1x = data.waiter1.x;
+    var w1y = data.waiter1.y;
+
+    var w2x = data.waiter2.x;
+    var w2y = data.waiter2.y;
+
+    console.log(w1x);
+    console.log(w1y);
+    console.log(w2x);
+    console.log(w2y);
+
+
+//    drawing(w1x, w1y, w2x, w2y, 'empty');
+//    location.reload();
+
+    //    document.getElementById('username').innerHTML = w1x + w1y +  w2x + w2y
+
+</script>
+
+
+</body>
+</html>

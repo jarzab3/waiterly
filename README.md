@@ -13,14 +13,13 @@ Deployment
 
 Issues:
 
-* TODO
- 
+sudo -E python setup.py install clarify 
 
 Run app:
 ------
 
 > In the main directory
 
-- python docsApp/app.py
+- python waitrely/app.py
 
 
